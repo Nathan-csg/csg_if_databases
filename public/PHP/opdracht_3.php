@@ -9,6 +9,7 @@ $waarde=9/10;
 $kwad=pow($waarde,2);
 $rec=1/$kwad;
 $afgerond=round($rec,7);
+$floor=floor(1000000*$rec)/100000;
 
 echo "Het kwadraat van $waarde is $kwad.<br>
       Het omgekeerde daarvan is (afgerond:) $afgerond<br>";
