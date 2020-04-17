@@ -5,6 +5,8 @@ include('opdracht_begin.php');
 TYP HIERONDER JOUW PHPCODE
 ****************************/
 
+
+//Ik snap het niet, dus kan u dit in de les uitleggen?//
 for ($o=1; $o<=6; $o++) {
   $frequentie[$o]=0;  
 }
