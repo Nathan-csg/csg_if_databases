@@ -30,6 +30,8 @@ TYP HIERONDER JOUW PHPCODE
 ****************************/
       
 $sql = "SELECT * FROM stations"; 
+
+mysqli_query($DBverbinding, $sql);
 toon_tabel($sql,$DBverbinding);
 
 mysqli_close($DBverbinding);  
